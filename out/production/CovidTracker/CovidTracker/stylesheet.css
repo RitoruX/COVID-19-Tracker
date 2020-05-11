@@ -1,0 +1,59 @@
+.Back {-fx-background-image: url("../image/back.jpg")}
+.Back:focused {
+    -fx-background-color: transparent,-fx-box-border,-fx-control-inner-background;
+    -fx-background-insets: -1.4, 0, 1;
+    -fx-background-radius: 1.4, 0, 0;
+    -fx-padding: 1;
+}
+.Exit:focused {
+    -fx-background-color: transparent,-fx-box-border,-fx-control-inner-background;
+    -fx-background-insets: -1.4, 0, 1;
+    -fx-background-radius: 1.4, 0, 0;
+    -fx-padding: 1;
+}
+.Exit {-fx-background-image: url("../image/exit.jpg")}
+
+.StatsTable{
+    -fx-border-color:derive(gray,80%);
+}
+
+.StatsTable .scroll-bar:horizontal ,
+.StatsTable  .scroll-bar:vertical{
+    -fx-background-color:transparent;
+
+}
+
+.StatsTable .increment-button ,.StatsTable .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+}
+
+.StatsTable .scroll-bar:horizontal .track,
+.StatsTable .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color:derive(gray,80%);
+    -fx-background-radius: 2em;
+    -fx-border-radius:2em;
+}
+
+.StatsTable .scroll-bar:horizontal .thumb,
+.StatsTable .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(black,90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
+
+.StatsTable .scroll-bar .thumb:hover,
+.StatsTable .scroll-bar .thumb:pressed{
+    -fx-background-color: derive(black,50%);
+}
+
+.StatsTable .increment-button:hover ,.StatsTable .decrement-button:hover {
+    -fx-background-color:derive(gray,100%);
+    -fx-border-color:derive(gray,80%);
+    -fx-padding:10px;
+}
+
+.StatsTable .list-cell {
+    -fx-alignment: center;
+}
