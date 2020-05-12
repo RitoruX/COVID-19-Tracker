@@ -3,11 +3,11 @@
 
 ###Homepage
 
-![Imgur](https://imgur.com/KHH4Iwd.png)
+![Imgur](https://imgur.com/CT8SKNH.png)
 
 ###More Info page
 
-![Imgur](https://imgur.com/wM71Nme.png)
+![Imgur](https://imgur.com/03ZCnjf.png)
 ## Features
 * Showing Covid-19 infected, death and recovery stats for each country around the world.
 * Showing graph stats for each country.
