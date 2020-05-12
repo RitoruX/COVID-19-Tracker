@@ -9,6 +9,9 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+/**
+ * @author Pittayut Benjamasutin.
+ */
 public class CovidTracker extends Application {
 
     private double xOffset = 0;

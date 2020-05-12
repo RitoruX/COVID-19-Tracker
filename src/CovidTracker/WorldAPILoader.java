@@ -6,8 +6,16 @@ import javafx.collections.ObservableList;
 import java.util.ArrayList;
 import java.util.Map;
 
+/**
+ * WorldAPILoader is api loader for around the world stats.
+ * @author Pittayut Benjamasutin.
+ */
 public class WorldAPILoader {
 
+    /**
+     * Load api and separate data.
+     * @return country that contain all stats.
+     */
     public ObservableList<Country> getCountry() {
         ObservableList<Country> countries = FXCollections.observableArrayList();
         APILoader apiLoader = new APILoader();

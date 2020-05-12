@@ -7,6 +7,10 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Map;
 
+/**
+ * APILoader is class that contain methods be used in api loading from the internet.
+ * @author Pittayut Benjamasutin.
+ */
 public class APILoader {
 
     /**

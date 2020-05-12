@@ -1,5 +1,9 @@
 package CovidTracker;
 
+/**
+ * Single that contain api url.
+ * @author Pittayut Benjamasutin.
+ */
 public class LinkAPI {
 
     private String worldAPI = "https://corona.lmao.ninja/v2/countries?yesterday&sort";

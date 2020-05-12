@@ -14,8 +14,11 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import java.net.URL;
 import java.util.*;
 
-
-public class AllStatsController<Icon> implements Initializable {
+/**
+ * AllStatsController is controller of TableView.
+ * @author Pittayut Benjamasutin
+ */
+public class AllStatsController implements Initializable {
 
     @FXML
     private TableView<Country> StatsTable;

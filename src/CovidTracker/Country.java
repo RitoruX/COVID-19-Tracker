@@ -1,5 +1,6 @@
 package CovidTracker;
 
+
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.scene.control.Button;
@@ -7,6 +8,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/**
+ * Country class that contain infected ,death ,recovered and today stats.
+ * @author Pittayut Benjamasutin
+ */
 public class Country {
 
     private final SimpleIntegerProperty recovered, hospitalize, infected, death, todayInfected, todayDeath;
