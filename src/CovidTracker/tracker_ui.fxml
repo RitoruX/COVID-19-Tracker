@@ -13,12 +13,12 @@
 
 <BorderPane fx:id="Plane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CovidTracker.AllStatsController">
    <center>
-      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #12406A;" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #655c57;" BorderPane.alignment="CENTER">
          <rotationAxis>
             <Point3D />
          </rotationAxis>
          <children>
-            <TableView fx:id="StatsTable" layoutX="56.0" layoutY="34.0" prefHeight="601.0" prefWidth="1168.0" styleClass="StatsTable" stylesheets="@stylesheet.css">
+            <TableView fx:id="StatsTable" layoutX="56.0" layoutY="34.0" prefHeight="601.0" prefWidth="1168.0" stylesheets="@stylesheet.css">
               <columns>
                 <TableColumn fx:id="CountryName" prefWidth="75.0" text="Country" />
                   <TableColumn fx:id="Infected" prefWidth="75.0" text="Total Case" />
@@ -39,9 +39,9 @@
       <HBox fx:id="H_Box" prefHeight="40.0" prefWidth="1280.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
          <children>
             <Button fx:id="Back" mnemonicParsing="false" prefHeight="42.0" prefWidth="42.0" styleClass="Back" stylesheets="@stylesheet.css" visible="false" />
-            <Text fill="#12406a" strokeType="OUTSIDE" strokeWidth="0.0" text="Covid-19 Tracker" textAlignment="CENTER" HBox.hgrow="ALWAYS">
+            <Text fill="#2e1e11" strokeType="OUTSIDE" strokeWidth="0.0" text="Covid-19 Tracker" textAlignment="CENTER" HBox.hgrow="ALWAYS">
                <font>
-                  <Font name="Berlin Sans FB Demi Bold" size="40.0" />
+                  <Font name="Berlin Sans FB Bold" size="40.0" />
                </font>
                <rotationAxis>
                   <Point3D />
