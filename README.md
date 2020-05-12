@@ -13,7 +13,7 @@
 * Showing graph stats for each country.
 ## How to run it
  1. First step, clone my project to your device.
- 2. Command Line to project directory, then use command by change  ```--module-path ``` to your device directory.
+ 2. Command Line to project directory, then use command by change  ```--module-path ``` to your device directory (ex. "C:\Users\Ritoru'\Desktop\Coding\Year_1.2\CovidTracker\lib"). 
  ``` 
  java --module-path "{CovidTracker\lib\directory\here}" --add-modules javafx.controls,javafx.fxml,javafx.graphics,com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind  -jar CovidTracker.jar 
 ```
