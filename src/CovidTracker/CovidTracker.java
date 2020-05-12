@@ -15,7 +15,7 @@ public class CovidTracker extends Application {
     private double yOffset = 0;
     public static String fxml = "tracker_ui.fxml";
 
-    public static void setFXML(String n_fxml) { fxml = n_fxml;}
+    public void setFXML(String n_fxml) { fxml = n_fxml;}
 
     @Override
     public void start(Stage primaryStage) throws Exception{

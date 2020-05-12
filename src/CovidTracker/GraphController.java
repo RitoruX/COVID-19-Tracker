@@ -4,9 +4,11 @@ import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.chart.AreaChart;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
@@ -20,7 +22,7 @@ public class GraphController implements Initializable {
     private BorderPane Plane;
 
     @FXML
-    private LineChart<?, ?> Stats_Graph;
+    private AreaChart<?, ?> Stats_Graph;
 
     @FXML
     private HBox H_Box;
@@ -33,12 +35,14 @@ public class GraphController implements Initializable {
 
     public static String country;
 
-    @Override
+
+    @FXML
     public void initialize(URL url, ResourceBundle resourceBundle) {
         Stats_Graph.setTitle(country);
-        XYChart.Series cases = CountryAPILoader.loadStats(country, "cases");
-        XYChart.Series deaths = CountryAPILoader.loadStats(country, "deaths");
-        XYChart.Series recovered = CountryAPILoader.loadStats(country, "recovered");
+        CountryAPILoader countryAPILoader = new CountryAPILoader();
+        XYChart.Series cases = countryAPILoader.loadStats(country, "cases");
+        XYChart.Series deaths = countryAPILoader.loadStats(country, "deaths");
+        XYChart.Series recovered = countryAPILoader.loadStats(country, "recovered");
         Stats_Graph.getData().addAll(cases, deaths, recovered);
         Exit.setOnAction(this::exitHandler);
     }
@@ -48,4 +52,5 @@ public class GraphController implements Initializable {
         Stage stage = (Stage) Exit.getScene().getWindow();
         stage.close();
     }
+
 }

@@ -47,10 +47,12 @@ public class AllStatsController<Icon> implements Initializable {
     @FXML
     private Button Exit;
 
-    private final ObservableList<Country> data = WorldAPILoader.getCountry();
+    private ObservableList<Country> data;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        WorldAPILoader worldAPILoader = new WorldAPILoader();
+        data = worldAPILoader.getCountry();
         StatsTable.setItems(data);
         Recovered.setCellValueFactory(new PropertyValueFactory<>("recovered"));
         Infected.setCellValueFactory(new PropertyValueFactory<>("infected"));

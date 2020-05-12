@@ -57,3 +57,61 @@
 .StatsTable .list-cell {
     -fx-alignment: center;
 }
+
+.chart {
+    -fx-padding: 10px;
+}
+.chart-legend {
+    -fx-padding: 20px;
+    -fx-background-color: #eb8f90;
+}
+.chart-legend-item{
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Bauhaus 93";
+    -fx-font-size: 20px;
+}
+.chart-plot-background {
+    -fx-background-color: #12406a;
+}
+.chart-title {
+    -fx-text-fill: #ffb471;
+    -fx-font-size: 40px;
+    -fx-font-family: "Bauhaus 93";
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: transparent;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: transparent;
+}
+.axis {
+    -fx-font-size: 1.4em;
+    -fx-tick-label-fill: #ffffff;
+    -fx-font-family: "Bauhaus 93";
+}
+.chart-series-area-line {
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+.default-color0.chart-series-area-line { -fx-stroke: #5e35e1; }
+.default-color1.chart-series-area-line { -fx-stroke: #ec407a; }
+.default-color2.chart-series-area-line { -fx-stroke: #39be5f; }
+.default-color0.chart-series-area-fill {
+    -fx-blend-mode: screen;
+}
+.default-color1.chart-series-area-fill {
+    -fx-blend-mode: screen;
+}
+.default-color2.chart-series-area-fill {
+    -fx-blend-mode: screen;
+}
+.default-color0.chart-area-symbol {
+    -fx-background-color: #5e35e1, #ffffff;
+}
+.default-color1.chart-area-symbol {
+    -fx-background-color: #ec407a, #ffffff;
+}
+.default-color2.chart-area-symbol {
+    -fx-background-color: #39be5f, #ffffff;
+}

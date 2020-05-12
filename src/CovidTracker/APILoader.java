@@ -14,7 +14,7 @@ public class APILoader {
      * @param api_url is api URL from database.
      * @return  ArrayList<Map> contains map of data.
      */
-    public static ArrayList<Map> apiRequestList(String api_url) {
+    public ArrayList<Map> apiRequestList(String api_url) {
         try {
             ObjectMapper mapper = new ObjectMapper();
             URL url = new URL(api_url);
@@ -29,7 +29,7 @@ public class APILoader {
      * @param api_url is api URL from database.
      * @return  Map<String, Object> contains stat.
      */
-    public static Map<String, Object> apiRequestMap(String api_url) {
+    public Map<String, Object> apiRequestMap(String api_url) {
         try {
             ObjectMapper mapper = new ObjectMapper();
             URL url = new URL(api_url);
