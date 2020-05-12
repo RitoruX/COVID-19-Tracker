@@ -1,11 +1,11 @@
-# COVID-19 Tracker - RitoruX
+# COVID-19Tracker - RitoruX
 **Covid-19 Tracker** is a java application that tracks and shows graphs **COVID-19** infected , deaths and recovered for each day.
 
-**Homepage**
+###Homepage
 
 ![Imgur](https://imgur.com/KHH4Iwd.png)
 
-**More Info page**
+###More Info page
 
 ![Imgur](https://imgur.com/wM71Nme.png)
 ## Features
