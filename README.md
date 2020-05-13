@@ -1,11 +1,11 @@
 # COVID-19Tracker - RitoruX
 **Covid-19 Tracker** is a java application that tracks and shows graphs **COVID-19** infected , deaths and recovered for each day.
 
-###Homepage
+### Homepage
 
 ![Imgur](https://imgur.com/CT8SKNH.png)
 
-###More Info page
+### More Info page
 
 ![Imgur](https://imgur.com/03ZCnjf.png)
 ## Features
@@ -17,9 +17,6 @@
  ``` 
  java --module-path "{CovidTracker\lib\directory\here}" --add-modules javafx.controls,javafx.fxml,javafx.graphics,com.fasterxml.jackson.annotation,com.fasterxml.jackson.core,com.fasterxml.jackson.databind  -jar CovidTracker.jar 
 ```
-**Requirement** 
- * Java version "13.0.0" +
- * Java(TM) SE Runtime Environment (build 13.0.0 +) 
 ## Technology Used
 * [Jackson library](https://github.com/FasterXML/jackson) : mapping JSON string to another form that is easier to use.
 * JavaFX + CSS : more clearly preference
